@@ -1,6 +1,6 @@
 backend:
-  #name: git-gateway
-  name: test-repo
+  name: git-gateway
+  #name: test-repo
   branch: main
 
 media_folder: "media"
@@ -10,4 +10,4 @@ collections:
     folder: "homepage"
     create: true
     fields:
-      - { label: "Test",  name: "test", widget: "string" }
+      - { label: "Header",  name: "header", widget: "string" }
